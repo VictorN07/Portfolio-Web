@@ -1,0 +1,76 @@
+.cabecalho{
+    margin: 1rem;
+    border-radius: 5rem;
+    background-color: #012b50; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 1.3rem;
+    width: auto;
+    position: sticky;
+    top: 0;
+    box-shadow: 0rem 0.3rem 9rem 0.06rem black;
+}
+
+.logotipo{
+    font-size: 1.7rem;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.logotipo:hover{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    align-content: center;
+}
+.container__links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 5.1rem 0 0;
+}
+
+.container__links_unit{
+
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0rem 0.3rem;
+    width: auto;
+    height: 1.7rem;
+    
+    border-radius: 5rem;
+    transition: 0.5s;
+
+}
+
+.container__links_unit:hover{
+    font-size: 2rem;
+    height: 2.6rem;
+    color: var(--cor-verde-Primario);
+    box-shadow: 0rem 0rem 0.31rem 0.06rem white;
+}
+
+.contato{
+    font-size: 1.3rem;
+    padding: 0.1rem 0.3rem;
+    border: 0.06rem solid;
+    
+    border-radius: 5rem;
+    border-color: white;
+    background-color: var(--cor-verde-Secundario);
+    transition: 0.5s;
+}
+
+.contato:hover{
+    font-size: 1.6rem;
+    background-color: var(--cor-verde-Primario);
+    box-shadow: 0rem 0rem 0.2rem 0rem white;
+
+}

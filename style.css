@@ -1,0 +1,33 @@
+@import url("styles/header.css");
+@import url(styles/inicio.css);
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+
+:root{
+    --cor-azul-Primaria: #012340;
+    --cor-verde-Primario: #04D939;
+    --cor-verde-Secundario: #03A63C;
+    --cor-verde-Terciario:#027333;
+    --cor-verde-Quaternario: #025939;
+    --cor-azul-verdeQ-Degrade: linear-gradient(178deg, #012340 20%, #025939 100%);
+
+    --font-Principal: "Alan sans"
+}
+
+html {
+  scroll-behavior:smooth;
+}
+
+* {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-Principal);
+    color: #fff;
+}
+body{
+    background: var(--cor-azul-Primaria);
+
+
+
+}

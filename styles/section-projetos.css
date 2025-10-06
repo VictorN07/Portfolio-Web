@@ -1,0 +1,47 @@
+.projetos{
+    text-align: center;
+
+}
+
+.projetos_informacao{
+    margin: 1vh 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.projetos_informacao-img-robo{
+    height: 85vh;
+}
+
+.projetos_informacao_texto{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: solid;
+    border-radius: 3rem;
+    background-color:#011e38;
+    box-shadow: 0 0 3rem 0 #001120;
+    font-size: 3rem;
+}
+
+.ir-github{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: #001120;
+    box-shadow: 0 0 20px 1px black;
+    transition: font-size 0.5s;
+    
+}
+
+.ir-github:hover{
+    font-size: 4rem;
+
+}
+
+
+
+

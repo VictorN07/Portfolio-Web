@@ -1,5 +1,7 @@
 @import url("styles/header.css");
-@import url(styles/inicio.css);
+@import url(styles/section-inicio.css);
+@import url(styles/section-projetos.css);
+@import url(styles/section-sobre_mim.css);
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 
 :root{
@@ -17,6 +19,10 @@ html {
   scroll-behavior:smooth;
 }
 
+a{
+    text-decoration: none;
+}
+
 * {
     width: auto;
     height: auto;
@@ -26,7 +32,8 @@ html {
     color: #fff;
 }
 body{
-    background: var(--cor-azul-Primaria);
+    background-image: linear-gradient(to bottom, #00539b,#012c52, #00182e, black);
+    
 
 
 

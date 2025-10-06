@@ -12,18 +12,33 @@
     box-shadow: 0rem 0.3rem 9rem 0.06rem black;
 }
 
-.logotipo{
+.cabecalho-autor{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cabecalho-autor_nome{
     font-size: 1.7rem;
     font-weight: bold;
     transition: 0.5s;
 }
 
-.logotipo:hover{
+.cabecalho-autor_nome:hover{
     font-size: 2rem;
 }
 
-a{
-    text-decoration: none;
+.linkedin-logo{
+    opacity: 0;
+    position: absolute;
+    left: 11rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.cabecalho-autor_nome:hover + .linkedin-logo{
+    opacity: 1;
+    left: 16rem;
+    height: 2.5rem;
 }
 
 .container{

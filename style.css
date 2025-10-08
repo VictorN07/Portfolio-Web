@@ -31,10 +31,51 @@ a{
     font-family: var(--font-Principal);
     color: #fff;
 }
+
+
 body{
-    background-image: linear-gradient(to bottom, #00539b,#012c52, #00182e, black);
     
+    background-image: linear-gradient(to bottom, #00539b,#012c52, #00182e, black);
+    min-height: 100vh;
+}
 
 
 
+.container__bolhas{
+    z-index: -100;
+    width: 100%;
+    height: 200vh ;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    overflow: hidden;
+    
+}
+
+.container__bolhas span{
+    position: relative;
+    background: var(--cor-verde-Primario);
+    margin: 0 4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px var(--cor-verde-Secundario), 0 0 50px var(--cor-verde-Primario), 0 0 100px var(--cor-verde-Primario);
+    animation: animacao 15s linear infinite;
+    animation-duration: calc( 200s / var(--i));
+}
+
+.container__bolhas span:nth-child(even){
+    background: var(--cor-verde-Terciario);
+    box-shadow: 0 0 0 10px var(--cor-verde-Quaternario), 0 0 50px var(--cor-verde-Terciario), 0 0 100px var(--cor-verde-Terciario);
+}
+
+@keyframes animacao {
+    0%{
+        transform: translateY(200vh) scale(0);
+    }
+    100%{
+        transform: translateY(-10vh) scale(1);
+    }
 }

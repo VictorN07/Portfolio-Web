@@ -1,4 +1,5 @@
 .cabecalho{
+    z-index: 100;
     margin: 1rem;
     border-radius: 5rem;
     background-color: #012b50; 

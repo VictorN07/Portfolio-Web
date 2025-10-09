@@ -1,0 +1,26 @@
+footer{
+    font-size: 1rem;
+    margin: 3rem 3rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3{
+    font-size: 1.6rem;
+}
+
+.rodape-menu li{
+    padding: 0.2rem 0;
+    list-style: none;
+    transition: 0.3s ease-in;
+    background: linear-gradient(to left, var(--cor-verde-Primario));
+    background-size: 0 0.1em;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: font-size 0.3s ,background-size 400ms;
+}
+
+.rodape-menu li:hover,:focus{
+    font-size: 1.6rem;
+    background-size: 100% 0.1em;
+}

@@ -30,6 +30,10 @@
     font-size: 3rem;
 }
 
+.projetos_informacao_texto p{
+    font-family: Arial;
+}
+
 .ir-github{
     display: flex;
     justify-content: center;

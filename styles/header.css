@@ -46,7 +46,6 @@
     gap: 1rem;
     display: flex;
     align-content: center;
-    
 }
 
 .container__links{
@@ -55,7 +54,6 @@
     justify-content: center;
     gap: 2rem;
     margin: 0 5rem 0 0;
-    
 }
 
 .container__links_unit{
@@ -73,19 +71,27 @@
     background-position: 0 100%;
 }
 
-
-
-
-
 .container__links_unit:hover{
     font-size: 2rem;
     height: 2.6rem;
     background-size: 100% 10%;
-    
 }
 
-
-
+.container__links_unit::before{
+    z-index: -1;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 0.1rem;
+    border-radius: 5rem;
+    transition: 0.5s;
+    background: linear-gradient(to left, #285a85);
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-position: 0 100%;
+}
 
 .contato{
     font-size: 1.3rem;

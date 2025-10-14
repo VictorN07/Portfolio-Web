@@ -1,6 +1,5 @@
 .projetos{
     text-align: center;
-
 }
 
 .projetos-titulo{
@@ -14,7 +13,6 @@
 }
 
 .projetos_informacao-img-robo{
-
     height: 85vh;
 }
 
@@ -43,14 +41,8 @@
     background-color: #001120;
     box-shadow: 0 0 20px 1px black;
     transition: font-size 0.5s;
-    
 }
 
 .ir-github:hover{
     font-size: 4rem;
-
 }
-
-
-
-

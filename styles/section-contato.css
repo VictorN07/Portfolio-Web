@@ -1,6 +1,9 @@
 #Contato{
     text-align: center;
+    margin: 2rem;
 }
+
+
 
 .formulario-titulo{
     font-size: 4rem;
@@ -21,14 +24,26 @@
 }
 
 .formulario-content input{
+    color: black;
     padding: 1rem;
     border-radius: 50px;
+    height: 1rem;
+}
+
+.formulario-content input:focus{
+    font-size: 0.9rem; 
 }
 
 .formulario-content textarea{
+    color: black;
     resize: none;
     padding: 2rem;
     border-radius: 30px;
+    height: 6rem;
+}
+
+.formulario-content textarea:focus{
+    font-size: 0.9rem;
 }
 
 .formulario-content-ID{
@@ -39,7 +54,33 @@
     width: 100%;
 }
 
-.btn-enviar input{
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    height: 2rem 0;
+}
+
+
+.botao-enviar{
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5rem;
+    background: var(--cor-verde-Primario);
     font-size: 1.2rem;
+    text-align: center;
+    transition: 0.1s, box-shadow 0.2s linear;
+}
+.botao-enviar:focus{
+    box-shadow: 0 0 30px 3px var(--cor-verde-Primario);
+}
+
+.botao-enviar:disabled{
+    cursor: not-allowed;
+    background:  #3b6946;
+}
+
+.botao-enviar:enabled{
+    cursor: pointer;
     background: var(--cor-verde-Primario);
 }

@@ -10,7 +10,21 @@
     width: 20%;
     height: 20%;
     border-radius: 80%;
+    animation: flutuar 5s linear infinite;
 }
+
+@keyframes flutuar {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
 
 .perfil__sobre{
     margin: 0 30vh;
@@ -24,7 +38,6 @@
 .perfil__sobre_paragrafo{
     text-align: center;
     font-size: 1.5rem;
-    
 }
 
 .perfil__sobre_logo{

@@ -1,6 +1,6 @@
 #Contato{
     text-align: center;
-    margin: 2rem;
+    margin: 0 2rem 2rem 2rem;
 }
 
 
@@ -20,7 +20,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    margin: 0 40vh;
+    margin: 0 10vw;
 }
 
 .formulario-content input{
@@ -83,4 +83,18 @@
 .botao-enviar:enabled{
     cursor: pointer;
     background: var(--cor-verde-Primario);
+}
+
+
+@media screen and (max-width: 800px){
+    .formulario-titulo{
+        font-size: 2rem;
+    }
+    
+    .formulario-content{
+        margin: 0;
+    }
+
+   
+    
 }

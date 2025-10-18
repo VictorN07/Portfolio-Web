@@ -29,6 +29,7 @@
 .perfil__sobre{
     margin: 0 30vh;
     padding: 1rem 2rem;
+    width: 60%;
     border: solid;
     border-radius: 32px;
     box-shadow: 0px  1rem 2rem 0.5rem #001120;
@@ -43,7 +44,28 @@
 .perfil__sobre_logo{
     padding: 1rem;
     gap: 1.6rem;
-    height: 15vh;
     display: flex;
     justify-content: center;
+}
+
+.logo{
+    width: 12%;
+}
+
+@media screen and (max-width: 800px) {
+    .perfil{
+        gap: 1rem;
+    }
+
+    .perfil__titulo{
+        font-size: 1.2rem;
+    }
+
+    .perfil__sobre{
+        width: 17rem;
+        padding: 0.7rem 1rem;
+    }
+    .perfil__sobre_paragrafo{
+        font-size: 1rem;
+    }
 }

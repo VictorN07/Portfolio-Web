@@ -1,6 +1,7 @@
 footer{
     font-size: 1rem;
     margin: 3rem 3rem 3rem;
+    gap: 30vw;
     display: flex;
     justify-content: space-between;
 }
@@ -23,4 +24,10 @@ footer h3{
 .rodape-menu li:hover,:focus{
     font-size: 1.6rem;
     background-size: 100% 0.1em;
+}
+
+@media screen and (max-width: 800px){
+    footer h3{
+        font-size: 1.4rem;
+    }
 }

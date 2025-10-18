@@ -97,7 +97,7 @@
     display: flex;
     align-items: center;
     position: relative;
-    background: #666666;
+    background: #3b3b3b;
     padding: 0 1rem;
     border-radius: 99px;
     transition: 0.5s linear;
@@ -110,7 +110,7 @@
     right: 0.1rem;
     width: 100%;
     height: 100%;
-    background: #666666;
+    background: #3b3b3b;
 
 }
 
@@ -156,4 +156,115 @@
 
 .text_github:hover{
     font-size: 2rem;
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .cabecalho-autor_nome{
+        font-size: 1rem;
+    }
+
+    .cabecalho-autor_nome:hover{
+        font-size: 1.2rem;
+    }
+
+    .linkedin-logo{
+        left: 5rem;
+        height: 1rem;
+    }
+
+    .cabecalho-autor_nome:hover + .linkedin-logo{
+        left: 10.1rem;
+        height: 1rem;
+    }
+
+    .container__links{
+        gap: 0.2rem;
+    }
+    .container__links_unit{
+        font-size: 0.9rem;
+        height: 1.3rem;
+    }
+
+    .text_github{
+        font-size: 1rem;
+    }
+
+    .text_github:hover{
+        font-size: 1.2rem;
+    }
+
+    .img_github{
+        right: 4rem;
+        height: 0.5rem;
+    }
+
+    .text_github:hover + .img_github{
+        right: 8.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+
+    .cabecalho{
+        margin: 0.5rem;
+        padding: 0.3rem 0.3rem;
+    }
+
+    .cabecalho-autor_nome{
+        font-size: 0.6rem;
+    }
+
+    .cabecalho-autor_nome:hover{
+        font-size: 0.7rem;
+    }
+
+    .linkedin-logo{
+        left: 3rem;
+        height: 0.4rem;
+    }
+
+    .cabecalho-autor_nome:hover + .linkedin-logo{
+        left: 5.5rem;
+        height: 0.6rem;
+    }
+
+    .container__links{
+        gap: 0.2rem;
+    }
+    .container__links_unit{
+        font-size: 0.5rem;
+        height: 0.8rem;
+    }
+
+    .container__links_unit:hover{
+        font-size: 0.6rem;
+        height: 0.9rem;
+    }
+
+    .github{
+        padding: 0rem 0.3rem;
+    }
+
+    .text_github{
+        font-size: 0.6rem;
+    }
+
+    .text_github:hover{
+        font-size: 0.7rem;
+    }
+
+    .img_github{
+        right: 2rem;
+        height: 0.5rem;
+    }
+
+    .text_github:hover + .img_github{
+        right: 4.5rem;
+        height: 0.9rem;
+    }
 }

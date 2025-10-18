@@ -20,6 +20,8 @@
 
 html {
   scroll-behavior:smooth;
+  width: auto;
+  height: auto;
 }
 
 a{
@@ -39,7 +41,8 @@ a{
 body{
     
     background-image: linear-gradient(to bottom, #00539b,#012c52, #00182e, black);
-    min-height: 100vmax;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -47,8 +50,8 @@ body{
 .container__bolhas{
     filter: blur(0.1rem);
     z-index: -100;
-    width: 100%;
-    height:100vmax ;
+    width: 100%; 
+    height: 100vmax;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -80,9 +83,26 @@ body{
 
 @keyframes animacao {
     0%{
-        transform: translateY(300vh) scale(0);
+        transform: translateY(100vmax) scale(0);
     }
     100%{
         transform: translateY(-10vh) scale(1);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container__bolhas{
+        height: 100vmax;
+    }
+
+    .container__bolhas span{
+        margin: 0 1px;
+        width: 5px;
+        height: 5px;
+        box-shadow: 0 0 0 3px var(--cor-verde-Secundario), 0 0 7px var(--cor-verde-Primario), 0 0 9px var(--cor-verde-Primario);
+    }
+
+    .container__bolhas span:nth-child(even){
+        box-shadow: 0 0 0 3px var(--cor-verde-Quaternario), 0 0 7px var(--cor-verde-Terciario), 0 0 90px var(--cor-verde-Terciario);
     }
 }

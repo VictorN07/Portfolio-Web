@@ -39,13 +39,11 @@ a{
 
 
 body{
-    
+
     background-image: linear-gradient(to bottom, #00539b,#012c52, #00182e, black);
     width: 100%;
     height: 100%;
 }
-
-
 
 .container__bolhas{
     filter: blur(0.1rem);
@@ -60,8 +58,6 @@ body{
     overflow: hidden;
     
 }
-
-
 
 .container__bolhas span{
     position: relative;

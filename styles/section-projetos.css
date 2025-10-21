@@ -68,14 +68,9 @@
     .ir-github{
         font-size: 2rem;
     }
-    
 }
 
 @media screen and (max-width: 800px) {
-    .projetos{
-        gap: 2rem;
-    }
-
     .projetos-titulo{
         font-size: 2rem;
     }
@@ -84,7 +79,7 @@
     .projetos_informacao{
         width: 95vw;
         height: 25vh;
-        border-radius: 20%;
+        border-radius: 5px;
     }
 
    .projetos_informacao_texto{
